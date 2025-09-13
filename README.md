@@ -12,6 +12,8 @@ ________________________________________
 •	Straight-through Ethernet cables<br>
 ________________________________________
 # Network Topology Diagram
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2ecd6fb7-edc7-4b24-acd8-ba432ae36730" />
+
 # Description:
 •	PC0 and PC1 belong to VLAN 10 (192.168.10.0/24)<br>
 •	PC2 and PC3 belong to VLAN 20 (192.168.20.0/24)<br>
@@ -87,10 +89,20 @@ Router(config-if)# no shutdown<br>
 ________________________________________
 # Output (Screenshots)
 •	VLAN configuration on the switch<br>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4e6941ac-e61c-4bd3-b91f-3ce84fb50dea" />
+
 •	Router subinterface configuration<br>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0932dd6a-3d4c-440d-ade7-550374c2aa6a" />
+
 •	PC IP settings<br>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7dc13c2f-4b7b-4808-a6b2-77739570989b" />
+
 •	Successful ping between PCs in different VLANs after routing<br>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a17a086f-25d4-4aaf-a646-4292ed2ed342" />
+
 •	Successful ping between PCs in the same VLAN<br>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ca3f17b9-1f1c-468f-b005-28fd6f21aca4" />
+
 ________________________________________
 # Result
 Inter-VLAN routing was successfully configured using the Router-on-a-Stick method. PCs in different VLANs could communicate through the router.
